@@ -116,3 +116,25 @@ body {
     border-radius: 5px;
     margin-bottom: 15px;
 }
+
+.section.three {
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    gap: 15px;
+    padding: 50px 250px;
+    align-items: center;
+}
+
+.quote {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.credit {
+    font-weight: bold;
+    align-self: flex-end;
+    padding-right: 30px;
+}
